@@ -12,7 +12,7 @@ def main():
     # 1爬取网页
     baseurl = "https://movie.douban.com/top250?start="
     dataList = getData(baseurl)
-    savapath = ".\\doubanTop250.xls"
+    savapath = ".\\data\\doubanTop250.xls"
     # 3.保存数据
     savaData(dataList, savapath)
 
